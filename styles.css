@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    background-color: black;  
+}
+#title{
+    background-color: black;
+}
+#nav1{
+    background-color: black;
+}
+.navbar{
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    padding-left: 1%;
+}
+
+
+.intro1{
+    padding-top: 13%;
+    padding-left: 7%;
+    font-family: 'Cinzel', serif;
+    color: #FAC213 ;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+.intro2{
+    padding-left: 7%;
+    font-family: 'Quicksand', sans-serif;
+    color: #FAC213 ;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.intro3{
+    padding-top: 5%;
+    padding-left: 3%;
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #FAC213 ;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding-left: 0%;
+}
+.logo{
+    padding-top: 15%;
+    padding-bottom: 17%;
+}
+.nav-link {
+    display: inline-block;
+    position: relative;
+}
+  
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #FAC213;
+    transform-origin: center;
+    transition: 0.50s ease-out;
+}
+  
+.nav-link:hover:after {
+    
+    transform: scaleX(0.7);
+    transform-origin: center;
+}
+.nav-link:hover{
+    color: #FAC213;
+    transform-origin: center;  
+}
+.misavis{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.misavis-p{
+    font-family: 'Quicksand', sans-serif;
+    color: #FAC213;
+    line-height: 1.5;
+    font-size: 1.3em;
+    padding-top: 2%;
+  }
+.misavis-h{
+    font-family: 'Quicksand', sans-serif;
+    color: #FAC213 ;
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
